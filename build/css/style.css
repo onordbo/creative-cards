@@ -1,0 +1,23 @@
+body {
+  background-color: #951502;
+}
+
+h1 {
+  color: #fff;
+}
+
+.first {
+  margin-top: 250px;
+}
+
+.btn {
+  padding: 15px;
+  background-color: #2f4f4f;
+  margin: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+}
