@@ -15,12 +15,6 @@
     <body>
 
         <div class="container">
-            <div class="col-xs-12 col-md-12 text-center about">
-                <a href="#"><p><strong>About</strong></p></a>
-            </div>
-        </div>
-
-        <div class="container">
             <div class="col-xs-12 col-md-12 text-center">
                 <img src="/img/logo.svg" alt="OUTSIDETHEBOX" id="logo"/>
             </div>
@@ -40,17 +34,44 @@
             </div>
         </div>
 
-        <div class="container share">
-            <div id="social" class="col-xs-12 col-md-12 text-center">
-                <p>Share this site:</p>
-                <a href="#"><img class="icon" src="img/social/fb.svg" alt="Facebook"/></a>
-                <a href="#"><img class="icon" src="img/social/twtr.svg" alt="Twitter"/></a>
-                <a href="#"><img class="icon" src="img/social/gplus.svg" alt="Googple Plus"/></a>
+        <div class="share">
+            <a href="#"><img class="icon" src="img/social/fb.svg" alt="Facebook"/></a>
+            <a href="#"><img class="icon" src="img/social/twtr.svg" alt="Twitter"/></a>
+            <a href="#"><img class="icon" src="img/social/gplus.svg" alt="Googple Plus"/></a>
+        </div>
+
+        <a href="#" data-toggle="modal" data-target=".about-modal" class="about"><p>About</p></a>
+
+        <div class="modal fade about-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">Outside The Box // A Creativity Game</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Outside the box is a game that provides you with different tasks to encourage your creativity.
+                            The box contains 52 different cards with various creative tasks. To achieve maximum creativity,
+                            we recommend that you take at least one card each day.</p>
+
+                        <p>The only rule you should follow is that you always try your best to fulfill the
+                            task and that you respect the process. Some of the tasks might take less than one hour
+                            and others might take the whole day.</p>
+
+                        <p>You can play on your own or together with others. This game is recommended
+                            for human beings from the age of 15.</p>
+
+                        <p>The founders of this game are very interested in following your journey.
+                            Take a picture of your creative result and post it on social media. Use #outsidethebox.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
     </body>
 
     <script src="/js/main.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/modal.js"></script>
 
 </html>

@@ -1,5 +1,5 @@
 body
-  background-color #ff4f4c
+  background-color #329ccc
 
 h1
   font-size 60px
@@ -14,16 +14,36 @@ a
 a:hover
   text-decoration none
 
+a:visited
+  text-decoration none
+  color #ffffff
+
+::selection
+  background-color black
+  color #ffffff
+
 footer
   margin-top 100px
 
 #logo
-  margin-top 30px
+  margin-top 60px
   margin-bottom 30px
-  width 500px
+  max-width 500px
 
 .about
-  margin-top 15px
+  position fixed
+  left 0
+  bottom 0
+  margin 0px 0px 10px 30px
+  p
+    font-weight bold
+
+.about-modal
+   p
+    color black
+
+.modal-content
+   padding 20px
 
 .adviceContainer
   max-width 960px
@@ -41,30 +61,25 @@ footer
     color white
 
 .share
-  margin-top 20px
-
-#social
-  margin-top 20px
-  margin-bottom 30px
-  p
-    font-size 14px
-    font-weight bold
-    color #ffffff
-
+  margin-bottom 10px
+  margin-right 20px
+  position fixed
+  right 0
+  bottom 0
   img
     display inline
-    margin 0 10px
+    margin 0 6px
     width 35px
 
 @media only screen and (max-device-width: 480px)
 
   p
-    font-size 10px
+    font-size 14px
     color #ffffff
 
   #logo
     width 250px
-    margin-top 5px
+    margin-top 30px
     margin-bottom 5px
 
   #social
@@ -76,3 +91,23 @@ footer
 
   .first
     height 170px
+
+  .share
+  margin-bottom 10px
+  margin-right 20px
+  position fixed
+  right 0
+  bottom 0
+  img
+    display inline
+    margin 0 3px
+    width 20px
+
+  .btn
+  padding 15px
+  background-color darkslategrey
+  margin 15px
+  font-family Helvetica Neue, Helvetica, Arial
+  color #ffffff
+  &:hover
+    color white
