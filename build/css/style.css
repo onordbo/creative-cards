@@ -27,12 +27,12 @@ a:visited {
 }
 
 ::-moz-selection {
-  background-color: #000;
+  background-color: rgba(0,0,0,0.3);
   color: #fff;
 }
 
 ::selection {
-  background-color: #000;
+  background-color: rgba(0,0,0,0.3);
   color: #fff;
 }
 
