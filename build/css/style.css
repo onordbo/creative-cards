@@ -2,18 +2,43 @@ body {
   background-color: #ff4f4c;
 }
 
-p {
-  font-size: 30px;
+h1 {
+  font-size: 60px;
   color: #fff;
 }
 
-#logo {
+p {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
   margin-top: 100px;
+}
+
+#logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 500px;
 }
 
+.about {
+  margin-top: 15px;
+}
+
+.adviceContainer {
+  max-width: 960px;
+}
+
 .first {
-  margin-top: 100px;
+  height: 300px;
 }
 
 .btn {
@@ -28,18 +53,49 @@ p {
   color: #fff;
 }
 
+.share {
+  margin-top: 20px;
+}
+
+#social {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#social p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#social img {
+  display: inline;
+  margin: 0 10px;
+  width: 35px;
+}
+
 @media only screen and (max-device-width: 480px) {
   p {
-    font-size: 30px;
+    font-size: 10px;
     color: #fff;
   }
 
   #logo {
-    width: 300px;
-    margin-top: 40px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #social {
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: #fff;
   }
 
   .first {
-    margin-top: 60px;
+    height: 170px;
   }
 }
