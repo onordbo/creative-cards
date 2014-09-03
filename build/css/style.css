@@ -1,5 +1,7 @@
 body {
-  background-color: #329ccc;
+  background-color: #285f45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -40,14 +42,14 @@ footer {
 
 #logo {
   margin-top: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   max-width: 500px;
 }
 
 .about {
   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0px;
   margin: 0px 0px 10px 30px;
 }
 
@@ -63,19 +65,16 @@ footer {
   padding: 20px;
 }
 
-.adviceContainer {
-  max-width: 960px;
-}
-
-.first {
-  height: 300px;
-}
-
 .btn {
-  padding: 15px;
-  background-color: #2f4f4f;
-  margin: 30px;
+  padding: 20px 20px 10px 20px;
+  border: 1px solid #2d6d51;
+  margin-bottom: 30px;
+  background-color: #2a4273;
+}
+
+.btn p {
   font-family: Helvetica Neue, Helvetica, Arial;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -84,11 +83,11 @@ footer {
 }
 
 .share {
-  margin-bottom: 10px;
-  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-right: 10px;
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 0px;
+  bottom: 0px;
 }
 
 .share img {
@@ -106,7 +105,23 @@ footer {
   #logo {
     width: 250px;
     margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 15px 15px 5px 15px;
     margin-bottom: 5px;
+    background-color: #2a4273;
+  }
+
+  .btn p {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .btn:hover {
+    color: #fff;
   }
 
   #social {
@@ -118,13 +133,9 @@ footer {
     color: #fff;
   }
 
-  .first {
-    height: 170px;
-  }
-
   .share,
   margin-bottom 10px,
-  margin-right 20px,
+  margin-right 10px,
   position fixed,
   right 0,
   bottom 0,
@@ -132,17 +143,5 @@ footer {
     display: inline;
     margin: 0 3px;
     width: 20px;
-  }
-
-  .btn,
-  padding 15px,
-  background-color darkslategrey,
-  margin 15px,
-  font-family Helvetica Neue,
-  Helvetica,
-  Arial,
-  color #ffffff,
-  &:hover {
-    color: #fff;
   }
 }
