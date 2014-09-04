@@ -69,7 +69,7 @@ function setTextValueByIndex(index)
 	document.getElementById('advice').innerHTML = r_text[index];
 }
 
-//Index and load content from array
+//Index and load content from textArray
 function loadText()
 {
 	var index = gup("p");
