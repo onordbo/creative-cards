@@ -1,3 +1,5 @@
+//Developer: Øyvind Nordbø // @onordbo // oyvind.co
+
 function gup( name )
 {
   name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
