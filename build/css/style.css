@@ -1,5 +1,5 @@
 body {
-  background-color: #69af27;
+  background-color: #009de0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -55,6 +55,7 @@ footer {
 
 .about p {
   font-weight: bold;
+  font-size: 16px;
 }
 
 .about-modal p {
@@ -62,12 +63,15 @@ footer {
 }
 
 .modal-content {
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
+}
+
+.modal-footer a {
+  color: #000;
 }
 
 .btn {
   padding: 20px 20px 10px 20px;
-  border: 1px solid #2d6d51;
   margin-bottom: 30px;
   background-color: #2a4273;
 }

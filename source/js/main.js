@@ -10,6 +10,7 @@ function gup( name )
     return results[1];
 }
 
+//Array of HTML data
 function setTextValueByIndex(index)
 {
 	var r_text = new Array ();
@@ -68,6 +69,7 @@ function setTextValueByIndex(index)
 	document.getElementById('advice').innerHTML = r_text[index];
 }
 
+//Index and load content from array
 function loadText()
 {
 	var index = gup("p");
@@ -90,8 +92,20 @@ function loadText()
 	}
 }
 
+//Inject new HTML content
 function changeText()
 {
 	var i = Math.floor(52*Math.random());
 	setTextValueByIndex(i);
 }
+
+//Change background color
+var backgrounds = ["#69af27", "#009DE0", "#EAD301", "#D11278"];
+    function setColor(el) {
+        el.colorIdx = el.colorIdx || 0;
+        el.style.backgroundColor = backgrounds[el.colorIdx++ % backgrounds.length];
+}
+
+//Timeout function, loads new tip and change background color
+window.setInterval("setColor(body)", 30000);
+window.setInterval("changeText()", 30000);
