@@ -1,6 +1,6 @@
 # Creative Muscle Cards
 ### A Hyper Island student project
-This is the source code for the digital version of a small game I built with my team, during the first weeks at Hyper Island. Check out the demo here. [Creative Muscle Cards - DEMO](http://outsidethebox.oyvind.co)
+This is the source code for the digital version of a small game I built with my team, during the first weeks at Hyper Island. [Check it out here!](http://outsidethebox.oyvind.co)
 
 # Project
 
