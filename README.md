@@ -1,4 +1,5 @@
-# Creative Muscle Cards // A Hyper Island student project
+# Creative Muscle Cards
+### A Hyper Island student project
 This is the source code for the digital version of a small game I built with my team, during the first weeks at Hyper Island.
 
 # Demo
