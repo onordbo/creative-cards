@@ -9,6 +9,11 @@ body
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
 
+#byline
+  text-align center
+  display block
+  margin 0 auto
+
 h1
   font-size 60px
   color #ffffff
@@ -47,6 +52,19 @@ footer
     font-weight bold
     font-size 16px
 
+#byline
+  position fixed
+  left 45%
+  bottom 0px
+  margin 0px 0px 20px 30px
+  transition ease-in-out .3s
+  p
+    font-weight bold
+    font-size 16px
+
+  &:hover
+    color white
+
 .about-modal
    p
     color black
@@ -75,14 +93,14 @@ footer
   border 3px solid #ffffff
   margin-bottom 30px
   p
-    font-family Helvetica Neue, Helvetica, Arial
+    font-family 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
     font-size 18px
     color #ffffff
   &:hover
-    p
-      color #000000
     background-color white
     transition background-color 0.4s
+    p
+      color #000000
 
 .share
   margin-bottom 15px

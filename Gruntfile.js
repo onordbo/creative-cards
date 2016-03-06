@@ -1,7 +1,3 @@
-//TODO: Add CSS Minification
-//TODO: Add UglifyJS
-
-
 module.exports = function(grunt) {
 
   // configure the tasks

@@ -8,6 +8,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#byline {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 h1 {
   font-size: 60px;
   color: #fff;
@@ -47,6 +52,20 @@ footer {
   font-weight: bold;
   font-size: 16px;
 }
+#byline {
+  position: fixed;
+  left: 45%;
+  bottom: 0px;
+  margin: 0px 0px 20px 30px;
+  transition: ease-in-out 0.3s;
+}
+#byline p {
+  font-weight: bold;
+  font-size: 16px;
+}
+#byline:hover {
+  color: #fff;
+}
 .about-modal p {
   color: #000;
 }
@@ -78,7 +97,7 @@ font-weight
   margin-bottom: 30px;
 }
 .btn p {
-  font-family: Helvetica Neue, Helvetica, Arial;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 18px;
   color: #fff;
 }
